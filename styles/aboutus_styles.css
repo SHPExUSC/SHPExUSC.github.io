@@ -563,8 +563,7 @@
 
 @media screen and (max-width: 768px) {
   .box__content_orange,
-  .box__content_white, 
-  .box__content_dark_blue {
+  .box__content_white, .box__content_dark_blue {
     width: 66%;
     font-size: 2vw;
   }

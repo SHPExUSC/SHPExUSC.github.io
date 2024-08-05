@@ -517,7 +517,7 @@
 }
 
 .background-image {
-  background-image: url('../images/banner.jpg');
+  background-image: url('https://raw.githubusercontent.com/SHPExUSC/SHPExUSC.github.io/main/images/banner.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;

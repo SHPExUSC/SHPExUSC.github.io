@@ -511,7 +511,7 @@
   color: white;
   padding: 20px;
   margin: 20px auto;
-  width: 50%;
+  width: fit-content;
   box-sizing: border-box;
   text-align: center;
 }
@@ -530,8 +530,8 @@
   display: flex;
   align-items: center;
   padding: 20px;
-  margin: 20px auto;
-  width: 75%;
+  margin: 40px auto;
+  width: 66%;
   box-sizing: border-box;
 }
 
@@ -544,6 +544,7 @@
 .box__content_white {
   background: #feffff;
   color: #f5633c;
+  width: 66%;
 }
 
 .box__content_orange img,
@@ -557,17 +558,17 @@
 
 .box__content_white img {
   border-color: #F36537;
+  max-width: 400px;
 }
 
 @media screen and (max-width: 768px) {
   .box__content_orange,
-  .box__content_white {
-    width: 90%;
+  .box__content_white, .box__content_dark_blue {
+    width: 66%;
     font-size: 2vw;
   }
 }
 
-/* New styles for the box with clickable elements */
 .box__content_links {
   display: flex;
   flex-wrap: wrap; /* Allows items to wrap to the next line if necessary */
@@ -575,7 +576,7 @@
   padding: 20px;
   background-color: #f0f0f0; /* Adjust the background color as needed */
   border-radius: 10px; /* Optional: Add rounded corners */
-  margin: 0 auto; /* Adjust the margin as needed */
+  margin: 40px auto; /* Adjust the margin as needed */
   width: 50%;
 }
 

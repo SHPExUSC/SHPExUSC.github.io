@@ -568,10 +568,6 @@
     width: 66%;
     font-size: 2vw;
   }
-  .background-image {
-    background-attachment: scroll; /* Change to scroll for better performance on mobile */
-    background-size: contain; /* Adjust size to contain for better fit on mobile */
-  }
 }
 
 .box__content_links {
